@@ -1,0 +1,19 @@
+Participants will be able to
+
+	- Create repositories
+	- clone repositories
+	- commit the changes and
+	- create branches
+	
+	
+	
+To add a file in repository use this:
+
+	E:\CodingBeamProject>git add .
+	
+	E:\CodingBeamProject>git status
+
+	E:\CodingBeamProject>git commit -m "Course sample has been added."
+
+	E:\CodingBeamProject>git push -u origin master		
+
