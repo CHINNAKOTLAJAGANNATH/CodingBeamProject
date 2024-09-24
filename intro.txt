@@ -1,0 +1,48 @@
+This is a repository for course development.
+
+-- To make sure you have git installed or not?
+	git
+	git -v
+	git --version
+		
+	version Installed: git version 2.46.1.windows.1
+	
+/* ***************************************************** */
+
+Configuration Commands:
+	
+git config --global user.email "chinnakotlajagan@gmail.com"
+git config --global user.name "CHINNAKOTLAJAGANNATH"
+
+
+1. Create any local folder
+
+2. Move to the folder and add new files
+
+3. Open the folder at GitBash or Command Prompt
+
+4. Initialize the Git Repository:
+
+	git init
+
+5. Check the status of stagged and unstagged files:
+
+	git status
+	
+6. Add the tracked files to the stagging area:
+
+	git add .
+	
+7. Check the status again
+
+	git status
+	
+8. Create a commit
+
+	git commit  -m "First Commit with intro.txt Files"
+
+9.Push the changes to the central repository:
+
+	git remote add origin https://github.com/CHINNAKOTLAJAGANNATH/CodingBeamProject.git
+	
+	git push -u origin master 
