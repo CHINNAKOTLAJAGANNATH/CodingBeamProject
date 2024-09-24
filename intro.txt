@@ -46,3 +46,145 @@ git config --global user.name "CHINNAKOTLAJAGANNATH"
 	git remote add origin https://github.com/CHINNAKOTLAJAGANNATH/CodingBeamProject.git
 	
 	git push -u origin master 
+	
+	
+command prompt:
+Microsoft Windows [Version 10.0.22631.4169]
+(c) Microsoft Corporation. All rights reserved.
+
+E:\CodingBeamProject>git init
+Initialized empty Git repository in E:/CodingBeamProject/.git/
+
+E:\CodingBeamProject>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        intro.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+E:\CodingBeamProject>git add .
+
+E:\CodingBeamProject>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   intro.txt
+
+
+E:\CodingBeamProject>git commit -m "First Commit with intro.txt File"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'JAGANNATH@LAPTOP-HD4TCG8N.(none)')
+
+E:\CodingBeamProject>
+
+E:\CodingBeamProject>^C
+'C' is not recognized as an internal or external command,
+operable program or batch file.
+
+E:\CodingBeamProject>git config --global user.email "chinnakotlajagan@gmail.com"
+
+E:\CodingBeamProject>git config --global user.name "CHINNAKOTLAJAGANNATH"
+
+E:\CodingBeamProject>git commit  -m "First Commit with intro.txt Files"
+[master (root-commit) e8459cd] First Commit with intro.txt Files
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 intro.txt
+
+E:\CodingBeamProject>git remote add origin https://github.com/CHINNAKOTLAJAGANNATH/CodingBeamProject.git
+
+E:\CodingBeamProject>git push -u origin master
+info: please complete authentication in your browser...
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 248 bytes | 248.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/CHINNAKOTLAJAGANNATH/CodingBeamProject.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+E:\CodingBeamProject>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+E:\CodingBeamProject>git add .
+
+E:\CodingBeamProject>git init
+Reinitialized existing Git repository in E:/CodingBeamProject/.git/
+
+E:\CodingBeamProject>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+E:\CodingBeamProject>git init
+Reinitialized existing Git repository in E:/CodingBeamProject/.git/
+
+E:\CodingBeamProject>git add .
+
+E:\CodingBeamProject>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   intro.txt
+        new file:   objective.txt
+
+
+E:\CodingBeamProject>git init
+Reinitialized existing Git repository in E:/CodingBeamProject/.git/
+
+E:\CodingBeamProject>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   intro.txt
+        new file:   objective.txt
+
+
+E:\CodingBeamProject>git commot -m "Course objective has been addedd."
+git: 'commot' is not a git command. See 'git --help'.
+
+The most similar command is
+        commit
+
+E:\CodingBeamProject>git commit -m "Course objective has been addedd."
+[master a71c429] Course objective has been addedd.
+ 2 files changed, 48 insertions(+)
+ create mode 100644 objective.txt
+
+E:\CodingBeamProject>git push -u origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 816 bytes | 408.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/CHINNAKOTLAJAGANNATH/CodingBeamProject.git
+   e8459cd..a71c429  master -> master
+branch 'master' set up to track 'origin/master'.
+
+E:\CodingBeamProject>
